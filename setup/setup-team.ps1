@@ -24,7 +24,7 @@
   .\setup-team.ps1 -Project D:\Apps\myapp -Bot 2 -DiscordUserId 123456789012345678 -TokenFromClipboard -Startup
 .EXAMPLE
   # Video project that keeps its team files in _bots and reuses existing Discord bots
-  .\setup-team.ps1 -Project D:\ProjectStory -Bot 2 -Mode video -TeamDir D:\ProjectStory\_bots -StateDir $env:USERPROFILE\.claude\channels\discord2
+  .\setup-team.ps1 -Project D:\MyVideo -Bot 2 -Mode video -TeamDir D:\MyVideo\_bots -StateDir $env:USERPROFILE\.claude\channels\discord2
 #>
 param(
   [Parameter(Mandatory = $true)][string]$Project,
